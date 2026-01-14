@@ -1,2 +1,9 @@
-__pychache__/
-restnet50_clothing_best.pth
+# Python cache
+__pycache__/
+*.pyc
+
+# ML models
+*.pth
+
+# macOS
+.DS_Store
