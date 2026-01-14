@@ -13,11 +13,25 @@ Unlike standard thrift apps, ThreadRevive turns upcycling into a scalable servic
 * **3-Point Quality Check:** A digital verification system ensuring upcycled products meet high professional standards.
 * **Upcycle Hubs:** Strategic regional hubs established to minimize shipping distances and reduce carbon footprints.
 * **Sustainability Core:** Focuses on moving fashion from a linear "disposal" model to a circular "restoration" model.
+  
+## AI System & Dataset
+*	Model: Transfer Learning using CNN-based architecture ResNet50.
+*	Task: Image-based clothing category classification.
+*	Dataset:
+  	Custom dataset built by scraping real e-commerce images (Myntra) for modern fashion relevance.
+		Categories include casual shirts, formal shirts, printed t-shirts, hoodies, cargos, and jeans.
+		Dataset curated and cleaned to avoid duplication and bias.
+*	Accuracy:
+		Achieved ~95% classification accuracy on validation data.
+*	Role of AI:
+		Automates garment categorization at intake.
+		Acts as the foundation for downstream designer matching and marketplace listing.
 
 ## Tech Stack
 * **Frontend:** React.js — For a high-performance, responsive marketplace UI.
 * **Backend:** Node.js & Express — Handling secure user transactions and API logic.
 * **Database:** MongoDB — Management of inventory and designer portfolios.
+* AI/ML: Python, TensorFlow/Keras, OpenCV — image processing and model training.
 
 ## Architecture & Methodology
 1. **Module 1 (AI Recognition):** Categorizes incoming thrift items.
@@ -32,9 +46,9 @@ Unlike standard thrift apps, ThreadRevive turns upcycling into a scalable servic
 ## Team TrendByte
 * **Tanishka Singh** (Team Leader)
 * **Tarush Jain**
-* **Aashi Sharma**
-* **Manya Singh**
 * **Prashant Sharma**
+* **Manya Singh**
+* **Aashi Sharma**
 
 ---
 *Developed for **Innovate 3.0: Hack to Build** at Jaypee Institute of Information Technology (JIIT), Noida.*
