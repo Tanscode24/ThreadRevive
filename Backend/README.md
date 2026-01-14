@@ -27,19 +27,6 @@ This service powers the **AI-Powered Categorization** feature of ThreadRevive.
 - **Torchvision** – Model architecture and preprocessing
 - **Pillow** – Image handling
 
----
-
-## API Endpoints
-
-### Health Check
-
-**GET /**
-
-**Response**
-```json
-{
-  "status": "API is running"
-}
 
 ## Model Details
 
@@ -50,7 +37,7 @@ This service powers the **AI-Powered Categorization** feature of ThreadRevive.
 - **Input:** RGB garment image (224 × 224)
 - **Output:** Predicted garment category with confidence score
 
-### Classes Supported
+## Classes Supported
 - casual_shirts  
 - formal_shirts  
 - printed_tshirts  
@@ -59,7 +46,7 @@ This service powers the **AI-Powered Categorization** feature of ThreadRevive.
 - men_cargos  
 - formal_pants  
 
-### Training Summary
+## Training Summary
 - **Training Strategy:** Transfer learning with partial fine-tuning
 - **Dataset:** Real-world thrift and e-commerce garment images
 - **Data Cleaning:** Removal of mislabeled and multi-garment images
@@ -68,4 +55,13 @@ This service powers the **AI-Powered Categorization** feature of ThreadRevive.
 
 > **Note:**  
 > Trained model weights (`.pth` files) are not included in this repository due to size constraints.  
-> The code demonstrates how the model is loaded and used for inference.
+
+## API Endpoints
+
+### Health Check
+
+**GET /****Response**
+```json
+{
+  "status": "API is running"
+}
